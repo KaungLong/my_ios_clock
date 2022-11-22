@@ -7,23 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		411AE1E6290FC48E006430EB /* RepeatAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411AE1E5290FC48E006430EB /* RepeatAlarmViewController.swift */; };
+		411AE1EA2910F526006430EB /* AlarmLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411AE1E92910F526006430EB /* AlarmLabelViewController.swift */; };
+		411AE1EE29127221006430EB /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411AE1ED29127221006430EB /* Day.swift */; };
+		411AE1F029129CB7006430EB /* AlarmInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411AE1EF29129CB7006430EB /* AlarmInfo.swift */; };
+		411AE1F22912A0B6006430EB /* UserNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411AE1F12912A0B6006430EB /* UserNotification.swift */; };
+		411AE1F429139E0C006430EB /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411AE1F329139E0C006430EB /* Date.swift */; };
+		411AE1F62913B57C006430EB /* AlarmStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411AE1F52913B57C006430EB /* AlarmStore.swift */; };
 		41608D9428FFE37400EFBEE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41608D9328FFE37400EFBEE3 /* AppDelegate.swift */; };
 		41608D9628FFE37400EFBEE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41608D9528FFE37400EFBEE3 /* SceneDelegate.swift */; };
-		41608D9828FFE37400EFBEE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41608D9728FFE37400EFBEE3 /* ViewController.swift */; };
-		41608D9B28FFE37400EFBEE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41608D9928FFE37400EFBEE3 /* Main.storyboard */; };
 		41608D9D28FFE37600EFBEE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41608D9C28FFE37600EFBEE3 /* Assets.xcassets */; };
 		41608DA028FFE37600EFBEE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41608D9E28FFE37600EFBEE3 /* LaunchScreen.storyboard */; };
+		41608DA828FFE80200EFBEE3 /* TabberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41608DA728FFE80200EFBEE3 /* TabberViewController.swift */; };
+		41BCB98E291B9E8400EB558F /* 123.wav in Resources */ = {isa = PBXBuildFile; fileRef = 41BCB98D291B9E8400EB558F /* 123.wav */; };
+		41FEC3E729014498000BAF4D /* world_clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FEC3E629014498000BAF4D /* world_clock.swift */; };
+		41FEC3E92901498F000BAF4D /* alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FEC3E82901498F000BAF4D /* alarm.swift */; };
+		41FEC3ED29014A0E000BAF4D /* timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FEC3EC29014A0E000BAF4D /* timer.swift */; };
+		41FEC3EF29014A5B000BAF4D /* stop_watch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FEC3EE29014A5B000BAF4D /* stop_watch.swift */; };
+		41FEC3F22907E92C000BAF4D /* WakeUpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FEC3F12907E92C000BAF4D /* WakeUpTableViewCell.swift */; };
+		41FEC3F52907F961000BAF4D /* AlarmOtherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FEC3F42907F960000BAF4D /* AlarmOtherTableViewCell.swift */; };
+		41FEC3F8290917A9000BAF4D /* addAlarmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FEC3F7290917A9000BAF4D /* addAlarmController.swift */; };
+		41FEC3FA29092153000BAF4D /* AddAlarmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FEC3F929092153000BAF4D /* AddAlarmTableViewCell.swift */; };
+		41FEC3FC2909298E000BAF4D /* AddAlarmButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FEC3FB2909298E000BAF4D /* AddAlarmButtonTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		411AE1E5290FC48E006430EB /* RepeatAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatAlarmViewController.swift; sourceTree = "<group>"; };
+		411AE1E92910F526006430EB /* AlarmLabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmLabelViewController.swift; sourceTree = "<group>"; };
+		411AE1ED29127221006430EB /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		411AE1EF29129CB7006430EB /* AlarmInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmInfo.swift; sourceTree = "<group>"; };
+		411AE1F12912A0B6006430EB /* UserNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotification.swift; sourceTree = "<group>"; };
+		411AE1F329139E0C006430EB /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		411AE1F52913B57C006430EB /* AlarmStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmStore.swift; sourceTree = "<group>"; };
 		41608D9028FFE37400EFBEE3 /* my_ios_clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = my_ios_clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41608D9328FFE37400EFBEE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41608D9528FFE37400EFBEE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		41608D9728FFE37400EFBEE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		41608D9A28FFE37400EFBEE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41608D9C28FFE37600EFBEE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41608D9F28FFE37600EFBEE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41608DA128FFE37600EFBEE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41608DA728FFE80200EFBEE3 /* TabberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabberViewController.swift; sourceTree = "<group>"; };
+		41BCB98D291B9E8400EB558F /* 123.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 123.wav; sourceTree = "<group>"; };
+		41FEC3E629014498000BAF4D /* world_clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = world_clock.swift; sourceTree = "<group>"; };
+		41FEC3E82901498F000BAF4D /* alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alarm.swift; sourceTree = "<group>"; };
+		41FEC3EC29014A0E000BAF4D /* timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timer.swift; sourceTree = "<group>"; };
+		41FEC3EE29014A5B000BAF4D /* stop_watch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stop_watch.swift; sourceTree = "<group>"; };
+		41FEC3F12907E92C000BAF4D /* WakeUpTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeUpTableViewCell.swift; sourceTree = "<group>"; };
+		41FEC3F42907F960000BAF4D /* AlarmOtherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmOtherTableViewCell.swift; sourceTree = "<group>"; };
+		41FEC3F7290917A9000BAF4D /* addAlarmController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addAlarmController.swift; sourceTree = "<group>"; };
+		41FEC3F929092153000BAF4D /* AddAlarmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmTableViewCell.swift; sourceTree = "<group>"; };
+		41FEC3FB2909298E000BAF4D /* AddAlarmButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmButtonTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +69,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		411AE1EC291271F0006430EB /* module */ = {
+			isa = PBXGroup;
+			children = (
+				411AE1ED29127221006430EB /* Day.swift */,
+				411AE1F329139E0C006430EB /* Date.swift */,
+				411AE1F12912A0B6006430EB /* UserNotification.swift */,
+				411AE1F52913B57C006430EB /* AlarmStore.swift */,
+				411AE1EF29129CB7006430EB /* AlarmInfo.swift */,
+			);
+			path = module;
+			sourceTree = "<group>";
+		};
 		41608D8728FFE37400EFBEE3 = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +102,49 @@
 			children = (
 				41608D9328FFE37400EFBEE3 /* AppDelegate.swift */,
 				41608D9528FFE37400EFBEE3 /* SceneDelegate.swift */,
-				41608D9728FFE37400EFBEE3 /* ViewController.swift */,
-				41608D9928FFE37400EFBEE3 /* Main.storyboard */,
+				41608DA728FFE80200EFBEE3 /* TabberViewController.swift */,
+				41BCB98D291B9E8400EB558F /* 123.wav */,
+				411AE1EC291271F0006430EB /* module */,
+				41FEC3F02907E6E1000BAF4D /* controller */,
 				41608D9C28FFE37600EFBEE3 /* Assets.xcassets */,
 				41608D9E28FFE37600EFBEE3 /* LaunchScreen.storyboard */,
 				41608DA128FFE37600EFBEE3 /* Info.plist */,
 			);
 			path = my_ios_clock;
+			sourceTree = "<group>";
+		};
+		41FEC3F02907E6E1000BAF4D /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				41FEC3E629014498000BAF4D /* world_clock.swift */,
+				41FEC3EE29014A5B000BAF4D /* stop_watch.swift */,
+				41FEC3EC29014A0E000BAF4D /* timer.swift */,
+				41FEC3E82901498F000BAF4D /* alarm.swift */,
+				41FEC3F629091771000BAF4D /* addAlarm */,
+				41FEC3F32907E932000BAF4D /* tableCell */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		41FEC3F32907E932000BAF4D /* tableCell */ = {
+			isa = PBXGroup;
+			children = (
+				41FEC3F42907F960000BAF4D /* AlarmOtherTableViewCell.swift */,
+				41FEC3F12907E92C000BAF4D /* WakeUpTableViewCell.swift */,
+				41FEC3FB2909298E000BAF4D /* AddAlarmButtonTableViewCell.swift */,
+				41FEC3F929092153000BAF4D /* AddAlarmTableViewCell.swift */,
+			);
+			path = tableCell;
+			sourceTree = "<group>";
+		};
+		41FEC3F629091771000BAF4D /* addAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				41FEC3F7290917A9000BAF4D /* addAlarmController.swift */,
+				411AE1E5290FC48E006430EB /* RepeatAlarmViewController.swift */,
+				411AE1E92910F526006430EB /* AlarmLabelViewController.swift */,
+			);
+			path = addAlarm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +205,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41BCB98E291B9E8400EB558F /* 123.wav in Resources */,
 				41608DA028FFE37600EFBEE3 /* LaunchScreen.storyboard in Resources */,
 				41608D9D28FFE37600EFBEE3 /* Assets.xcassets in Resources */,
-				41608D9B28FFE37400EFBEE3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +218,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41608D9828FFE37400EFBEE3 /* ViewController.swift in Sources */,
+				411AE1E6290FC48E006430EB /* RepeatAlarmViewController.swift in Sources */,
+				41608DA828FFE80200EFBEE3 /* TabberViewController.swift in Sources */,
 				41608D9428FFE37400EFBEE3 /* AppDelegate.swift in Sources */,
+				411AE1F029129CB7006430EB /* AlarmInfo.swift in Sources */,
+				41FEC3E92901498F000BAF4D /* alarm.swift in Sources */,
+				41FEC3FC2909298E000BAF4D /* AddAlarmButtonTableViewCell.swift in Sources */,
+				41FEC3ED29014A0E000BAF4D /* timer.swift in Sources */,
+				411AE1F429139E0C006430EB /* Date.swift in Sources */,
+				41FEC3F22907E92C000BAF4D /* WakeUpTableViewCell.swift in Sources */,
 				41608D9628FFE37400EFBEE3 /* SceneDelegate.swift in Sources */,
+				411AE1EE29127221006430EB /* Day.swift in Sources */,
+				411AE1F62913B57C006430EB /* AlarmStore.swift in Sources */,
+				41FEC3EF29014A5B000BAF4D /* stop_watch.swift in Sources */,
+				41FEC3FA29092153000BAF4D /* AddAlarmTableViewCell.swift in Sources */,
+				41FEC3F8290917A9000BAF4D /* addAlarmController.swift in Sources */,
+				41FEC3F52907F961000BAF4D /* AlarmOtherTableViewCell.swift in Sources */,
+				411AE1F22912A0B6006430EB /* UserNotification.swift in Sources */,
+				411AE1EA2910F526006430EB /* AlarmLabelViewController.swift in Sources */,
+				41FEC3E729014498000BAF4D /* world_clock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		41608D9928FFE37400EFBEE3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				41608D9A28FFE37400EFBEE3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		41608D9E28FFE37600EFBEE3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +380,6 @@
 				INFOPLIST_FILE = my_ios_clock/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +407,6 @@
 				INFOPLIST_FILE = my_ios_clock/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
