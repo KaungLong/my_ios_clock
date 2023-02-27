@@ -21,7 +21,7 @@ class UserNotification{
         content.title = "Clock"
         content.subtitle = "Alarm"
         content.categoryIdentifier = "alarm"
-        content.sound = UNNotificationSound(named: UNNotificationSoundName("123.wav"))
+        content.sound = UNNotificationSound(named: UNNotificationSoundName("bensound-clearday-cut.wav"))
         //        content.sound = UNNotificationSound.default
         
         let calendar = Calendar.current

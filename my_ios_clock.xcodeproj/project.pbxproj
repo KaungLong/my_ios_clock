@@ -19,7 +19,7 @@
 		41608D9D28FFE37600EFBEE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41608D9C28FFE37600EFBEE3 /* Assets.xcassets */; };
 		41608DA028FFE37600EFBEE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41608D9E28FFE37600EFBEE3 /* LaunchScreen.storyboard */; };
 		41608DA828FFE80200EFBEE3 /* TabberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41608DA728FFE80200EFBEE3 /* TabberViewController.swift */; };
-		41BCB98E291B9E8400EB558F /* 123.wav in Resources */ = {isa = PBXBuildFile; fileRef = 41BCB98D291B9E8400EB558F /* 123.wav */; };
+		419A9AD129ACAFCF00D8A5DC /* bensound-clearday-cut.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 419A9AD029ACAFCF00D8A5DC /* bensound-clearday-cut.mp3 */; };
 		41FEC3E729014498000BAF4D /* world_clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FEC3E629014498000BAF4D /* world_clock.swift */; };
 		41FEC3E92901498F000BAF4D /* alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FEC3E82901498F000BAF4D /* alarm.swift */; };
 		41FEC3ED29014A0E000BAF4D /* timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FEC3EC29014A0E000BAF4D /* timer.swift */; };
@@ -46,7 +46,7 @@
 		41608D9F28FFE37600EFBEE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41608DA128FFE37600EFBEE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41608DA728FFE80200EFBEE3 /* TabberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabberViewController.swift; sourceTree = "<group>"; };
-		41BCB98D291B9E8400EB558F /* 123.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 123.wav; sourceTree = "<group>"; };
+		419A9AD029ACAFCF00D8A5DC /* bensound-clearday-cut.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-clearday-cut.mp3"; sourceTree = "<group>"; };
 		41FEC3E629014498000BAF4D /* world_clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = world_clock.swift; sourceTree = "<group>"; };
 		41FEC3E82901498F000BAF4D /* alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alarm.swift; sourceTree = "<group>"; };
 		41FEC3EC29014A0E000BAF4D /* timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timer.swift; sourceTree = "<group>"; };
@@ -102,10 +102,10 @@
 			children = (
 				41608D9328FFE37400EFBEE3 /* AppDelegate.swift */,
 				41608D9528FFE37400EFBEE3 /* SceneDelegate.swift */,
-				41608DA728FFE80200EFBEE3 /* TabberViewController.swift */,
-				41BCB98D291B9E8400EB558F /* 123.wav */,
-				411AE1EC291271F0006430EB /* module */,
 				41FEC3F02907E6E1000BAF4D /* controller */,
+				41FEC3F32907E932000BAF4D /* tableCell */,
+				411AE1EC291271F0006430EB /* module */,
+				419A9AD229ACB44900D8A5DC /* sound */,
 				41608D9C28FFE37600EFBEE3 /* Assets.xcassets */,
 				41608D9E28FFE37600EFBEE3 /* LaunchScreen.storyboard */,
 				41608DA128FFE37600EFBEE3 /* Info.plist */,
@@ -113,15 +113,23 @@
 			path = my_ios_clock;
 			sourceTree = "<group>";
 		};
+		419A9AD229ACB44900D8A5DC /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				419A9AD029ACAFCF00D8A5DC /* bensound-clearday-cut.mp3 */,
+			);
+			path = sound;
+			sourceTree = "<group>";
+		};
 		41FEC3F02907E6E1000BAF4D /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				41608DA728FFE80200EFBEE3 /* TabberViewController.swift */,
 				41FEC3E629014498000BAF4D /* world_clock.swift */,
 				41FEC3EE29014A5B000BAF4D /* stop_watch.swift */,
 				41FEC3EC29014A0E000BAF4D /* timer.swift */,
 				41FEC3E82901498F000BAF4D /* alarm.swift */,
 				41FEC3F629091771000BAF4D /* addAlarm */,
-				41FEC3F32907E932000BAF4D /* tableCell */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -205,7 +213,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41BCB98E291B9E8400EB558F /* 123.wav in Resources */,
+				419A9AD129ACAFCF00D8A5DC /* bensound-clearday-cut.mp3 in Resources */,
 				41608DA028FFE37600EFBEE3 /* LaunchScreen.storyboard in Resources */,
 				41608D9D28FFE37600EFBEE3 /* Assets.xcassets in Resources */,
 			);

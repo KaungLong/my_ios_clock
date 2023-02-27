@@ -213,7 +213,7 @@ extension AlarmViewController{
     func notificationFromAlarm(alarm: AlarmInfo){
         let content = UNMutableNotificationContent()
         content.body = "\(alarm.note)"
-        content.sound = UNNotificationSound(named: UNNotificationSoundName("123.wav"))
+        content.sound = UNNotificationSound(named: UNNotificationSoundName("bensound-clearday-cut.wav"))
     }
 }
 
