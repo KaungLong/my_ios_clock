@@ -7,6 +7,7 @@ Hello, my name is KaungLong, an IOS Developer.This project is practicing to make
 - Xcode 13.3 +
 ## Features structure
 ---
+- UIKit programmatically
 - MVC structure
 - Delegate design pattern
 - Refactor data model
