@@ -22,7 +22,7 @@
 		419A9AD129ACAFCF00D8A5DC /* bensound-clearday-cut.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 419A9AD029ACAFCF00D8A5DC /* bensound-clearday-cut.mp3 */; };
 		419A9AD429ACD0D900D8A5DC /* my_ios_clock_demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 419A9AD329ACD0D800D8A5DC /* my_ios_clock_demo.gif */; };
 		41FEC3E729014498000BAF4D /* world_clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FEC3E629014498000BAF4D /* world_clock.swift */; };
-		41FEC3E92901498F000BAF4D /* alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FEC3E82901498F000BAF4D /* alarm.swift */; };
+		41FEC3E92901498F000BAF4D /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FEC3E82901498F000BAF4D /* AlarmViewController.swift */; };
 		41FEC3ED29014A0E000BAF4D /* timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FEC3EC29014A0E000BAF4D /* timer.swift */; };
 		41FEC3EF29014A5B000BAF4D /* stop_watch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FEC3EE29014A5B000BAF4D /* stop_watch.swift */; };
 		41FEC3F22907E92C000BAF4D /* WakeUpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FEC3F12907E92C000BAF4D /* WakeUpTableViewCell.swift */; };
@@ -50,7 +50,7 @@
 		419A9AD029ACAFCF00D8A5DC /* bensound-clearday-cut.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-clearday-cut.mp3"; sourceTree = "<group>"; };
 		419A9AD329ACD0D800D8A5DC /* my_ios_clock_demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = my_ios_clock_demo.gif; sourceTree = "<group>"; };
 		41FEC3E629014498000BAF4D /* world_clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = world_clock.swift; sourceTree = "<group>"; };
-		41FEC3E82901498F000BAF4D /* alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alarm.swift; sourceTree = "<group>"; };
+		41FEC3E82901498F000BAF4D /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
 		41FEC3EC29014A0E000BAF4D /* timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timer.swift; sourceTree = "<group>"; };
 		41FEC3EE29014A5B000BAF4D /* stop_watch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stop_watch.swift; sourceTree = "<group>"; };
 		41FEC3F12907E92C000BAF4D /* WakeUpTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeUpTableViewCell.swift; sourceTree = "<group>"; };
@@ -139,7 +139,7 @@
 				41FEC3E629014498000BAF4D /* world_clock.swift */,
 				41FEC3EE29014A5B000BAF4D /* stop_watch.swift */,
 				41FEC3EC29014A0E000BAF4D /* timer.swift */,
-				41FEC3E82901498F000BAF4D /* alarm.swift */,
+				41FEC3E82901498F000BAF4D /* AlarmViewController.swift */,
 				41FEC3F629091771000BAF4D /* addAlarm */,
 			);
 			path = controller;
@@ -242,7 +242,7 @@
 				41608DA828FFE80200EFBEE3 /* TabberViewController.swift in Sources */,
 				41608D9428FFE37400EFBEE3 /* AppDelegate.swift in Sources */,
 				411AE1F029129CB7006430EB /* AlarmInfo.swift in Sources */,
-				41FEC3E92901498F000BAF4D /* alarm.swift in Sources */,
+				41FEC3E92901498F000BAF4D /* AlarmViewController.swift in Sources */,
 				41FEC3FC2909298E000BAF4D /* AddAlarmButtonTableViewCell.swift in Sources */,
 				41FEC3ED29014A0E000BAF4D /* timer.swift in Sources */,
 				411AE1F429139E0C006430EB /* Date.swift in Sources */,

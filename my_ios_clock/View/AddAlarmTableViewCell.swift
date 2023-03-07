@@ -54,8 +54,7 @@ class AddAlarmTableViewCell: UITableViewCell {
         titleLabel.topAnchor.constraint(equalTo: topAnchor).isActive = true
         titleLabel.bottomAnchor.constraint(equalTo: bottomAnchor ).isActive = true
         titleLabel.leftAnchor.constraint(equalTo: leftAnchor,constant: 14).isActive = true
-//        titleLabel.trailingAnchor.constraint(equalTo: trailingAnchor,constant: -200).isActive = true
-        
+  
         contentLabel.topAnchor.constraint(equalTo: topAnchor).isActive = true
         contentLabel.bottomAnchor.constraint(equalTo: bottomAnchor ).isActive = true
         contentLabel.trailingAnchor.constraint(equalTo: trailingAnchor,constant: -50).isActive = true

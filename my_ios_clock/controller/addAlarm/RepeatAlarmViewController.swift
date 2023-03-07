@@ -5,52 +5,10 @@
 //  Created by 危末狂龍 on 2022/10/31.
 //
 
-//import UIKit
-//
-//class RepeatAlarmViewController: UIViewController {
-//
-//    let tableView:UITableView = {
-//        let myTable = UITableView(frame: CGRect.zero, style: .insetGrouped)
-//        myTable.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
-//        myTable.tintColor = .orange
-//        myTable.translatesAutoresizingMaskIntoConstraints = false
-//        return myTable
-//    }()
-//
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//        view.backgroundColor = .secondarySystemGroupedBackground
-//        overrideUserInterfaceStyle = .dark
-//        setupUI()
-//    }
-//
-//    func setupUI(){
-//        navigationController?.navigationBar.tintColor = .orange
-//        navigationItem.backBarButtonItem?.title = "返回"
-////        tableView.dataSource = self
-////        tableView.delegate = self
-//
-//        view.addSubview(tableView)
-//
-//        tableView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor,constant: 10 ).isActive = true
-//        tableView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor,constant: 20 ).isActive = true
-//
-//
-////        tableView.snp.makeConstraints { make in
-////            make.edges.equalToSuperview()
-////        }
-//    }
-//
-//
-//
-//}
-
-//>>>>>>
-
 import UIKit
 
 class RepeatAlarmViewController: UIViewController {
-//
+
     var selectDays:Set<Day> = []
     
     //MARK: - UI
@@ -65,17 +23,11 @@ class RepeatAlarmViewController: UIViewController {
     
     weak var repeatDelegate:UpdateRepeatLabelDelegate?
 
-    
     //把view移除時
     override func viewWillDisappear(_ animated: Bool) {
         repeatDelegate?.updateRepeatLabel(selectedDay: selectDays)
     }
-//
-    //把view移除時
-//    override func viewWillDisappear(_ animated: Bool) {
-//        repeatDelegate?.updateRepeatLabel(selectedDay: selectDays)
-//    }
-//
+
     //MARK: - lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -89,9 +41,9 @@ class RepeatAlarmViewController: UIViewController {
         navigationItem.backBarButtonItem?.title = "返回"
         tableView.dataSource = self
         tableView.delegate = self
-//
+
         view.addSubview(tableView)
-//        tableView.frame = view.bounds
+
         tableView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
         tableView.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
         tableView.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
@@ -101,6 +53,7 @@ class RepeatAlarmViewController: UIViewController {
 }
 
 extension RepeatAlarmViewController:UITableViewDataSource,UITableViewDelegate{
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return Day.allCases.count
     }

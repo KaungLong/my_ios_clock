@@ -8,7 +8,6 @@
 import UIKit
 
 class AddAlarmViewController: UIViewController {
-    
         
     var contentItems: [ContentItem] {
         [
@@ -39,13 +38,9 @@ class AddAlarmViewController: UIViewController {
         let myTable = UITableView()
         myTable.layer.cornerRadius = 10
         myTable.isScrollEnabled = false
-        //註冊addalarmtableviewcell
         myTable.register(AddAlarmTableViewCell.self, forCellReuseIdentifier: AddAlarmTableViewCell.identifier)
-        //註冊addalarmButtontableviewcell
         myTable.register(AddAlarmButtonTableViewCell.self, forCellReuseIdentifier: AddAlarmButtonTableViewCell.identifier)
         myTable.translatesAutoresizingMaskIntoConstraints = false
-        //myTable.insetsContentViewsToSafeArea = true
-        //之後要把這裡改成動態的條件
         myTable.rowHeight = 50
         return myTable
     }()
@@ -57,14 +52,13 @@ class AddAlarmViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .secondarySystemGroupedBackground
-        //尋求幫助 不知道怎麼要才可以讓背景不透明
         overrideUserInterfaceStyle = .dark
         setupUI()
         setupNavigation()
     }
     
     func setupUI(){
-//        tableView.backgroundColor = .systemPink
+
         tableView.dataSource = self
         tableView.delegate = self
         self.view.addSubview(datePicker)
@@ -74,14 +68,13 @@ class AddAlarmViewController: UIViewController {
         datePicker.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor).isActive = true
         datePicker.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor).isActive = true
         
-        
         tableView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor,constant: 18).isActive = true
         tableView.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor).isActive = true
         tableView.topAnchor.constraint(equalTo: datePicker.bottomAnchor,constant: 42).isActive = true
         tableView.heightAnchor.constraint(equalToConstant: 200 ).isActive = true
         
-        
     }
+    
     func setupNavigation(){
         navigationItem.title = "加入鬧鐘"
         navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action:#selector(cancelButton))
@@ -117,7 +110,7 @@ class AddAlarmViewController: UIViewController {
                 UserNotification.addNotificationRequest(alarm: alarm,days: dayInt)
             }
         }
-//        UserNotification.addNotificationRequest(alarm: alarm)
+        
         saveAlarmDataDelegate?.saveAlarmInfo(alarmData: alarm, index: tempIndexRow)
         self.dismiss(animated: true)
     }
@@ -169,8 +162,7 @@ extension AddAlarmViewController:UITableViewDataSource, UITableViewDelegate{
             labelVC.textField.text = alarm.note
             labelVC.labelDelegate = self
             self.navigationController?.pushViewController(labelVC, animated: true)
-//        case .sounds:
-//
+            
         default:
             break
         }

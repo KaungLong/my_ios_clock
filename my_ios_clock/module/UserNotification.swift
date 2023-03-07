@@ -16,14 +16,13 @@ class UserNotification{
     static func addNotificationRequest(alarm: AlarmInfo,days:Int = 0) {
         
         let current = UNUserNotificationCenter.current()
-        //        current.removeAllPendingNotificationRequests()
         let content = UNMutableNotificationContent()
+        
         content.title = "Clock"
         content.subtitle = "Alarm"
         content.categoryIdentifier = "alarm"
         content.sound = UNNotificationSound(named: UNNotificationSoundName("bensound-clearday-cut.wav"))
-        //        content.sound = UNNotificationSound.default
-        
+
         let calendar = Calendar.current
         let hour = calendar.component(.hour, from: alarm.date)
         let minute = calendar.component(.minute, from: alarm.date)

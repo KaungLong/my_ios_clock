@@ -8,6 +8,7 @@ import UIKit
 
 
 class timer_controller: UIViewController {
+    
     private let ex_words: UILabel = {
         let label = UILabel()
         label.text = "待完成"
@@ -23,7 +24,6 @@ class timer_controller: UIViewController {
         view.addSubview(ex_words)
         
         setupAutoLayout()
-        // Do any additional setup after loading the view.
     }
     
     func setupAutoLayout() {

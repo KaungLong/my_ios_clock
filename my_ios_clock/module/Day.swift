@@ -33,16 +33,5 @@ enum Day:Int, Codable, CaseIterable{
             case .Sat: return "週六"
         }
     }
-//    var weekdayInt:Int{
-//        switch self{
-//            case .Sun: return 1
-//            case .Mon: return 2
-//            case .Tue: return 3
-//            case .Wed: return 4
-//            case .Thu: return 5
-//            case .Fri: return 6
-//            case .Sat: return 7
-//        }
-//    }
-    
+
 }

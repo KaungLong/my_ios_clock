@@ -7,6 +7,7 @@
 import UIKit
 
 class stop_watch_controller: UIViewController {
+    
     private let ex_words: UILabel = {
         let label = UILabel()
         label.text = "待完成"
@@ -22,7 +23,6 @@ class stop_watch_controller: UIViewController {
         view.addSubview(ex_words)
         
         setupAutoLayout()
-        // Do any additional setup after loading the view.
     }
     
     func setupAutoLayout() {

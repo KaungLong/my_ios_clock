@@ -36,8 +36,9 @@ class AlarmOtherTableViewCell: UITableViewCell {
         detailTextLabel?.font = UIFont.systemFont(ofSize: 14)
     }
     @objc func switchChanged(_ sender : UISwitch){
+        
         callBackSwitchState?(sender.isOn)
-//        print("table row switch Changed \(sender.tag)")
+
         if sender.isOn{
             textLabel?.textColor = .white
             detailTextLabel?.textColor = .white

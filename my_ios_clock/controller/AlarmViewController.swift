@@ -8,6 +8,7 @@
 import UIKit
 
     class AlarmViewController: UIViewController{
+        
         //建立鬧鐘存儲，用來存放每次表格的資料變化
         var alarmStore = AlarmStore(){
             didSet{
@@ -124,8 +125,6 @@ import UIKit
                 return cell
             }
         }
-        
-
 
         func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
             100
